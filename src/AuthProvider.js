@@ -21,20 +21,26 @@ let AuthProvider = ({ children }) => {
             photoURL,
           });
         }
+
         setCurrentUser({ displayName, email, uid, photoURL });
       } else {
         setCurrentUser(user);
       }
+
       setLoading(false);
     });
+
     return () => {
       unsub();
     };
   }, []);
+
   // jb user login ya logout pura krlega tab loading false hojaigi
+
   return (
     <AuthContext.Provider value={currentUser}>
       {!loading && children}
+      
     </AuthContext.Provider>
   );
 };

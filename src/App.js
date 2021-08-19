@@ -6,7 +6,7 @@ import AuthProvider from "./AuthProvider";
 
 function App() {
   return (
-    <div>
+    <>
       <Router>
         <AuthProvider>
           <Switch>
@@ -22,7 +22,7 @@ function App() {
           </Switch>
         </AuthProvider>
       </Router>
-    </div>
+    </>
   );
 }
 

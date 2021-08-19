@@ -17,6 +17,7 @@
   border-radius: 50%;
   border: none;
 }
+
 .upload-btn {
   position: fixed;
   bottom: 3rem;
@@ -24,6 +25,7 @@
   width: 6rem;
   display: block;
 }
+
 .posts-container {
   height: 100vh;
   width: 100vw;
@@ -31,6 +33,7 @@
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
+
 .video-card {
   color: white;
   height: 100%;
@@ -42,16 +45,19 @@
 
 .like {
   font-size: 40px;
+  color: #d63031;
   position: absolute;
-  bottom: 14vh;
+  bottom: 20vh;
   right: 10px;
 }
+
 .comment {
   font-size: 40px;
   position: absolute;
   bottom: 14vh;
   right: 10px;
 }
+
 .username {
   position: absolute;
   bottom: 20vh;
@@ -95,6 +101,7 @@ video {
   height: 80%;
   width: 100%;
   border: 1px solid black;
+  color: black;
 }
 
 .comment-form {
