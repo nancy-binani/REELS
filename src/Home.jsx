@@ -80,7 +80,7 @@ let Home = () => {
               } else if (size > 10) {
                 alert("File is too big");
               } else {
-                console.log("paucha");
+               
                 //f1 function passed to state_changed event for upload progress
                 let f1 = (snapshot) => {
                   console.log(snapshot.bytesTransferred);
